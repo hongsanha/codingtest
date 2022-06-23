@@ -1,0 +1,9 @@
+{% extends 'base.html' %}
+{% block content %}
+    <h1>동아리 이름</h1>
+    {{ blog_detail.title}}
+    <h2>동아리 소개</h2>
+    {{ blog_detail.body}}
+    <h2>동아리 인원 수</h2>
+    {{ blog_detail.number}}
+{% endblock %}
